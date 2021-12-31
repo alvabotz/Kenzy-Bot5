@@ -3857,25 +3857,14 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
 }
               break
       case 'payment':
-      reply (`PAYMENT : 💸
-
-*Gopay :*
-085960658955 ( LIFZ STORE) 
-
-*Ovo :*
-085960658955 ( NASI PUTIH )
-
-*Dana :*
-085960658955 ( LIFZ4YOU ) 
-
-*Pulsa:*
-085960658955 ( Harga Normal + 5k ) 
-
-*Bca :*
-0010751527 ( MUHAMMAD ALIEF PRATAMA ) 
-
-_*Note*_ : Salah TF / Tidak Sesuai Tujuan Nomor Diatas *NO REFFUND*
-Dan Wajib Menyertakan Bukti Tf.`)
+      reply (`🏛LIST MENU PEMBAYARAN🏛
+🏧 REK BCA / JAGO PC ADMIN
+💳 GOPAY : MINTA ADMIN
+💳DANA : 085714537726
+💳OVO : 082122875075
+💳SHOPE : 085714537726
+💳SCAN ALL PAY:minta admin
+⚠SERTAKAN BUKTI TRANSAKSI YANG BENAR`)
 break
        case 'delcmd':
               if (!isPremium) return reply(`Kamu bukan user premium, kirim perintah *${prefix}buypremium* untuk membeli premium`)
@@ -7020,5 +7009,4 @@ console.log('Message : %s', color(e, 'cyan'))
         }
 }
 }
-
 
